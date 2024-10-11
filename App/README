@@ -1,0 +1,20 @@
+## Group 19
+- Reily Hollamby
+- Natasha Robinson
+- Chris Sheridan 
+- Aaron Van Der Hoek
+
+## Dependencies
+- python3 pip package installer (sudo apt-get install python3-pip)
+- websockets package (python3 -m pip install websockets)
+- pycryptodome package (python3 -m pip install pycryptodome)
+
+## Usage
+- Download ZIP folder from the GitHub repository
+- Run the server through the terminal via the command: 'python3 ./chatProgramServer.py', this will prompt the user for the IP theyre hosting on and the port e.g '192.168.1.100:PORT' where PORT belongs to the range 8000-49151
+- and the same for the client 'python3 ./chatProgramClient.py', this will then prompt the user for the URL to connect to. this is of the form: 'ws://localhost:PORT'
+### The user can then select from several commands
+- "Who's online?" (returns a list of connected parties)
+- "Send a public message" (prompts the user to send a message to all connected parties) 
+- "Send a private message" (prompts the user to send a message to a particular connected party) 
+- "Sign off" (closes connection and shuts down)
